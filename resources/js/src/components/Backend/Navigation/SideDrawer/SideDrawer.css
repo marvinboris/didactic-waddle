@@ -1,0 +1,34 @@
+.SideDrawer {
+	width: 280;
+	top: 70;
+	z-index: 1040;
+	height: calc(100vh - 70px);
+}
+
+.SideDrawer .backdrop {
+	height: calc(100vh - 70px);
+}
+
+.SideDrawer nav.flex-fill {
+	overflow-y: auto;
+	scrollbar-color: #076ec7;
+	scrollbar-width: 3px;
+	height: calc(100% - 150px);
+}
+
+.SideDrawer nav.flex-fill::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+}
+
+.SideDrawer nav.flex-fill::-webkit-scrollbar {
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+.SideDrawer nav.flex-fill::-webkit-scrollbar-thumb {
+	background-color: #076ec7;
+}
+
+@media (max-width: 992px) {}

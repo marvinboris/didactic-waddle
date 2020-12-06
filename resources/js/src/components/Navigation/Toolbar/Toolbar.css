@@ -1,0 +1,11 @@
+.Toolbar>.fixed-top {
+    top: 0px;
+    /* transition: all .25s; */
+}
+
+@media screen and (min-width: 992px) {
+    .Toolbar>.fixed-top {
+        top: -50px;
+        opacity: 0;
+    }
+}

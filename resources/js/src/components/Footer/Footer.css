@@ -1,0 +1,9 @@
+.Footer .fa-icon {
+    transform-origin: center;
+    transform: scale(1);
+    transition: all .25s;
+}
+
+.Footer .fa-icon:hover {
+    transform: scale(1.3);
+}
